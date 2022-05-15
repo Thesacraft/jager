@@ -1,2 +1,2 @@
 # jager
-# Dieses Repository ist nur für Frau Jager Stuff
+- Dieses Repository ist nur für Frau Jager Stuff
