@@ -5,7 +5,7 @@ from tkinter import *
 
 def ueberraschen():
     global ueberraschung
-    ueberraschung = True
+    ueberraschung = not ueberraschung
     move_all()
 
 
@@ -48,6 +48,7 @@ def untenVerschieben():
 def objektLoeschen():
     for item in items:
         canvas.delete(item)
+        items[items.index(item)] = None
 
 
 boundries = [[25, 565, 20, 330], [25, 565, 10, 340]]
@@ -73,8 +74,6 @@ def move_all():
             y0 = coords["base_coords"][1] + coords[i][1]
             x1 = coords["base_coords"][0] + coords[i][2]
             y1 = coords["base_coords"][1] + coords[i][3]
-            if i == 1:
-                print((x0, y0, x1, y1))
             canvas.coords(i, (x0, y0, x1, y1))
     else:
         x0 = coords["base_coords"][0] + coords[4][0]
@@ -82,6 +81,9 @@ def move_all():
         x1 = coords["base_coords"][0] + coords[4][2]
         y1 = coords["base_coords"][1] + coords[4][3]
         canvas.coords(4, (x0, y0, x1, y1))
+        for item in items:
+            if not item == 4:
+                canvas.coords(item, (-10, -10, -5, -5))
 
 
 # Zeichenleinwand
@@ -93,6 +95,7 @@ id_oval_wheel_2 = canvas.create_oval(-10, -10, -5, -5, fill="black")
 id_rechteck_oben = canvas.create_rectangle(-10, -10, -5, -5, fill="red")
 id_rechteck = canvas.create_rectangle(80, 30, 120, 40, fill="red")
 items = [id_oval_wheel_1, id_oval_wheel_2, id_rechteck_oben, id_rechteck]
+
 # Schaltfaechen
 buttonLinks = Button(master=tkFenster, text="links", command=linksVerschieben)
 buttonLinks.place(x=10, y=370, width=80, height=20)
