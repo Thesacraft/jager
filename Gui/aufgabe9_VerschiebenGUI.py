@@ -48,7 +48,6 @@ def untenVerschieben():
 def objektLoeschen():
     for item in items:
         canvas.delete(item)
-        items[items.index(item)] = None
 
 
 boundries = [[25, 565, 20, 330], [25, 565, 10, 340]]
