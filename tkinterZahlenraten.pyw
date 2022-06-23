@@ -21,7 +21,7 @@ Eingabe.grid(row=1, column=0)
 Ausgabe = Text(root)
 Ausgabe.grid(row=3, column=0)
 
-
+#Author: www.github.com/Thesacraft
 def naehe():
     tipp = int(Eingabe.get())
     print(tipp)

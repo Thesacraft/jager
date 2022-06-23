@@ -1,6 +1,7 @@
 '''
 LeinwandCanvas-AmpelGUI.py
 18.6.22
+Author: www.github.com/Thesacraft
 '''
 
 from tkinter import *
@@ -31,7 +32,7 @@ tkFenster.geometry('170x240')
 canvas = Canvas(tkFenster, bg='blue')
 canvas.place(x=5, y=5, width=160, height=160)
 
-# Ampelkasten
+# Ampelkasten Author: www.github.com/Thesacraft
 canvas.create_rectangle(65, 10, 95, 80, fill='black')
 # Stange
 canvas.create_rectangle(78, 80, 82, 150, fill='black')

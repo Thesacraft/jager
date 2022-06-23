@@ -51,7 +51,7 @@ def objektLoeschen():
 
 
 boundries = [[25, 565, 20, 330], [25, 565, 10, 340]]
-# Erzeugung des Fensters
+# Erzeugung des Fensters Author: www.github.com/Thesacraft
 tkFenster = Tk()
 tkFenster.title("Leinwand")
 tkFenster.geometry("600x400")

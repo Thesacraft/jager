@@ -44,7 +44,7 @@ while True:
     if not antwort.lower() == "ja":
         break
 
-# überprüfen ob er direkt verloren oder gewonnen hat
+# überprüfen ob er direkt verloren oder gewonnen hat Author: www.github.com/Thesacraft
 Spieler1_summe = summe_karten(Spieler1_karten)
 if (Spieler1_summe == 21):
     print("Spieler1 hat gewonnen!")

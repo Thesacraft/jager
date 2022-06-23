@@ -12,7 +12,7 @@ def Berechnungen(geschwindigkeit):
 # Eingabe
 eingabe_geschwindigkeit = int(input(f"Geben sie ihre Geschwindigkeit in km/h an: "))
 
-# Verarbeitung und aufrufen der Funktion
+# Verarbeitung und aufrufen der Funktion Author: www.github.com/Thesacraft
 [ausgabe_reaktionsweg, ausgabe_bremsweg, ausgabe_anhalteweg] = Berechnungen(eingabe_geschwindigkeit)
 
 # Ausgabe

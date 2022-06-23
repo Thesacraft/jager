@@ -21,7 +21,7 @@ for i in range(Spielkartenanzahl):
     Spielkartengemischt.append(temp_Spielkarte)
     temp_Spielkarte = ""
 
-# Ausgeben der gemischten und nicht gemischten Karten
+# Ausgeben der gemischten und nicht gemischten Karten Author: www.github.com/Thesacraft
 print(f"\nGemischte Spielkarten:{Spielkartengemischt}\n\nnicht Gemischte Spielkarten: {Spielkartenvorher}\n")
 
 

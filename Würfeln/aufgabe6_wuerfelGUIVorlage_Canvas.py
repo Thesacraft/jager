@@ -10,7 +10,7 @@ def buttonWuerfelnClick():
     ButtonWuerfel.config(image=Bilder[augen - 1])
 
 
-# Erzeugung des Fensters
+# Erzeugung des Fensters Author: www.github.com/Thesacraft
 tkFenster = Tk()
 tkFenster.title('Würfeln')
 tkFenster.geometry('800x600')

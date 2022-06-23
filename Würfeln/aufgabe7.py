@@ -10,7 +10,7 @@ def play():
     rand = randint(1, 3)
     LabelHand.config(image=Bilder[rand - 1])
 
-
+#Author: www.github.com/Thesacraft
 Bilder = []
 for i in range(3):
     Bilder.append(PhotoImage(file=f"stp{i + 1}.png"))

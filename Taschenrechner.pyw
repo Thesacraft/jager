@@ -65,7 +65,7 @@ def B9Click():
     EinAusgabe.insert(0, a + "9")
 
 
-# Prozeduren für die Rechentasten
+# Prozeduren für die Rechentasten Author: www.github.com/Thesacraft
 def BPlusClick():
     global Zahl1
     global Operator

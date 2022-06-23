@@ -1,5 +1,5 @@
 # Programm zur Berechnung des BMIs
-
+#Author: www.github.com/Thesacraft
 def berechnen(masse, groesse):
     groesse = groesse / 100
     bmi = round(masse / (groesse * groesse), 2)

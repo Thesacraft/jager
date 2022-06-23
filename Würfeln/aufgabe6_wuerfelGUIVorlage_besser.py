@@ -19,7 +19,7 @@ Bilder = []
 for i in range(6):
     Bilder.append(PhotoImage(file=f"w{i + 1}.gif"))
 
-# Farbe für den Hintergrund (in einem Label erstellt)
+# Farbe für den Hintergrund (in einem Label erstellt) Author: www.github.com/Thesacraft
 labelBGFarbe = Label(tkFenster, bg='#FBD975')
 labelBGFarbe.place(x=5, y=5, width=420, height=260)
 

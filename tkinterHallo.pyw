@@ -20,7 +20,7 @@ def ButtonGrussClick():
     AusgabeFeld.insert("end", "Hallo " + Name + '!')
 
 
-# Button (Verarbeitung) -> bei Click wird Prozedur ausgeführt
+# Button (Verarbeitung) -> bei Click wird Prozedur ausgeführt Author: www.github.com/Thesacraft
 ButtonGruss = tkinter.Button(Fenster, text=" Begrüßung ", command=
 ButtonGrussClick)
 ButtonGruss.grid(row=2, column=0, padx=5, pady=10)

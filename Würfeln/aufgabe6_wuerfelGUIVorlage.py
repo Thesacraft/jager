@@ -34,7 +34,7 @@ imageWuerfel4 = PhotoImage(file='w4.gif')
 imageWuerfel5 = PhotoImage(file='w5.gif')
 imageWuerfel6 = PhotoImage(file='w6.gif')
 
-# Farbe für den Hintergrund (in einem Label erstellt)
+# Farbe für den Hintergrund (in einem Label erstellt) Author: www.github.com/Thesacraft
 labelBGFarbe = Label(tkFenster, bg='#FBD975')
 labelBGFarbe.place(x=5, y=5, width=420, height=260)
 

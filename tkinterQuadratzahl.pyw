@@ -8,7 +8,7 @@ Eingabe.grid(row=0, column=0)
 Ausgabe = Text(root)
 Ausgabe.grid(row=2, column=0)
 
-
+# Author: www.github.com/Thesacraft
 def berechnung():
     a = float(Eingabe.get())
     quadratzahl = a * a

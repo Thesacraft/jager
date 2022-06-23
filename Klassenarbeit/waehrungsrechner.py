@@ -11,7 +11,7 @@ def umrechnen():
 Fenster = tkinter.Tk()
 Fenster.title("Währungsrechner")
 
-# Label
+# Label Author: www.github.com/Thesacraft
 WillkommenLabel = tkinter.Label(Fenster, text="Willkommen im Währungsrechner :)")
 WillkommenLabel.grid(row=0, column=0, padx=5, pady=5)
 EuroLabel = tkinter.Label(Fenster, text="Geben Sie den zu umrechnenden Wert in Euro Ein:")

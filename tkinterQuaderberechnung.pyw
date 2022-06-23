@@ -27,7 +27,7 @@ text_volumen = Text(root, height=1, width=30)
 text_volumen.grid(row=5, column=1, padx=5, pady=5)
 
 
-# functions
+# functions Author: www.github.com/Thesacraft
 def berechnen():
     laenge = float(entry_laenge.get())
     hoehe = float(entry_hoehe.get())
