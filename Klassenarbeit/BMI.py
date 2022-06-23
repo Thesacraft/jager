@@ -1,9 +1,10 @@
-#Programm zur Berechnung des BMIs
+# Programm zur Berechnung des BMIs
 
-def berechnen(masse,groesse):
+def berechnen(masse, groesse):
     groesse = groesse / 100
-    bmi = round(masse /( groesse * groesse),2)
+    bmi = round(masse / (groesse * groesse), 2)
     return bmi
+
 
 def Augabe(bmi):
     print(f"Ihr BMI beträgt: {BMI}")
@@ -14,8 +15,9 @@ def Augabe(bmi):
     else:
         print("Sie sind Übergewichtig")
 
+
 groesse = float(input("Geben Sie ihre Größe in cm an. "))
 masse = float(input("Geben Sie ihr Gewicht in kg an. "))
 
-BMI = berechnen(masse,groesse)
+BMI = berechnen(masse, groesse)
 Augabe(BMI)

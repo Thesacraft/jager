@@ -5,20 +5,22 @@ LeinwandCanvas-AmpelGUI.py
 
 from tkinter import *
 
+
 # Ereignisbehandlung
 def buttonWeiterClick():
     if canvas.itemcget(id_rot, 'fill') == 'red' and \
-       canvas.itemcget(id_gruen, 'fill') == 'gray':
+            canvas.itemcget(id_gruen, 'fill') == 'gray':
         # aktueller Zustand: rot
         # naechster Zustand: grün
         canvas.itemconfigure(id_rot, fill='gray')
         canvas.itemconfigure(id_gruen, fill='green')
     elif canvas.itemcget(id_rot, 'fill') == 'gray' and \
-       canvas.itemcget(id_gruen, 'fill') == 'green':
+            canvas.itemcget(id_gruen, 'fill') == 'green':
         # aktueller Zustand: grün
         # naechster Zustand: rot
         canvas.itemconfigure(id_rot, fill='red')
         canvas.itemconfigure(id_gruen, fill='gray')
+
 
 # Erzeugung des Fensters
 tkFenster = Tk()
